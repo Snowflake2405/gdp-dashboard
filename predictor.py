@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 import numpy as np
+!pip install scikit-learn
 #from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import MinMaxScaler
 import matplotlib.pyplot as plt
