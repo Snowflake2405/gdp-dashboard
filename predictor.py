@@ -1,5 +1,5 @@
 import streamlit as st
-import pickle
+#import pickle
 import pandas as pd
 import numpy as np
 #from sklearn.preprocessing import StandardScaler
@@ -12,7 +12,7 @@ from tensorflow.keras.layers import Dense, LSTM, Bidirectional
 
 # Load a pre-trained model (example: RandomForest)
 # Ensure you've trained and saved your model using pickle or joblib
-model = pickle.load(open("stocks.pkl", "rb"))
+#model = pickle.load(open("stocks.pkl", "rb"))
 
 #pandas_datareader.DataReader("GAZP", 'moex') не работает так что используем API, новый вариант
 # 500 rows - one request limit
