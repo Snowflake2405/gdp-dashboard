@@ -9,6 +9,8 @@ from tensorflow.keras.layers import Dense, LSTM, Bidirectional
 #import seaborn as sns
 #%matplotlib inline
 
+import tensorflow as tf
+st.write(tf.__version__)
 
 #pandas_datareader.DataReader("GAZP", 'moex') не работает так что используем API, новый вариант
 # 500 rows - one request limit
